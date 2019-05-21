@@ -1,0 +1,109 @@
+.outputList{
+  background-color: rgb(114, 171, 172);
+  text-align: center;
+  border-radius: 0 10px 0 10px;
+}
+html,
+body {
+  margin: 0;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+  
+}
+.hover:hover{
+  transform: scale(1.2)
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 20px;
+  top: 75px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.margin-window{
+  margin-left: 22%;
+  margin-right: 15%;
+  
+  border-left: 3px solid lightgrey;
+  overflow: hidden;
+}
+.menu-item{
+  padding: 10px;
+}
+
+.items-spacing{
+  padding-left: 30px;
+}
+.width-height{
+  margin-top: 4%;
+ 
+}
+.container-margin{
+  margin-top: 2%;
+}
+.padding{
+  padding-left: 10px;
+}
+.form-outline{
+  /* border: 3px solid grey; */
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 3px;
+  width: 315px;
+  overflow: hidden;
+  background-color: #d1c32a;
+}
